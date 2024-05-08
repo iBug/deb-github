@@ -18,6 +18,7 @@ output_dir = "output"
 pool_root = os.path.join(output_dir, "pool")
 repositories = [
     "coder/code-server",
+    "jgm/pandoc",
 ]
 packages_file = open(os.path.join(output_dir, "Packages.new"), "w")
 

@@ -91,6 +91,7 @@ try:
             buf.append(line)
             if line.startswith("Architecture:"):
                 arch = line.split()[1].strip()
+    os.remove(packages_file.name)
 finally:
     for f in packages.values():
         f.close()
@@ -98,9 +99,8 @@ finally:
             shutil.copyfileobj(fin, fout)
         with open(f.name, "rb") as fin, gzip.open(f.name + ".gz", "wb") as fout:
             shutil.copyfileobj(fin, fout)
-        os.remove(f.name)
 
 
 # Generate the "Release" file
 with open(os.path.join(release_dir, "Release"), "wb") as f:
-    subprocess.run(["apt-ftparchive", "-c", f"{suite}.conf", "release", output_dir], stdin=subprocess.DEVNULL, stdout=f, check=True)
+    subprocess.run(["apt-ftparchive", "-c", f"{suite}.conf", "release", release_dir], stdin=subprocess.DEVNULL, stdout=f, check=True)

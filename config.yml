@@ -9,4 +9,5 @@ architectures:
   - i386
 repositories:
   - coder/code-server
+  - dandavison/delta
   - jgm/pandoc

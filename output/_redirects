@@ -1,1 +1,2 @@
+/ https://github.com/iBug/deb-github 302
 /pool/main/:user/:repo/:tag/:filename https://github.com/:user/:repo/releases/download/:tag/:filename 302

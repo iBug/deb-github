@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 # Generated files
+/cache/
+output/dists
 output/pool
 output/Packages
 output/Packages.*

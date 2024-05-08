@@ -1,0 +1,12 @@
+output_dir: output
+suite: stable
+component: main
+architectures:
+  - all
+  - amd64
+  - arm64
+  - armhf
+  - i386
+repositories:
+  - coder/code-server
+  - jgm/pandoc

@@ -7,23 +7,29 @@ import shutil
 import subprocess
 import sys
 import traceback
+import yaml
 
 
 headers = {}
 if "GITHUB_TOEKN" in os.environ:
     headers["Authorization"] = "token " + os.environ["GITHUB_TOKEN"]
 
+with open("config.yml", "r") as f:
+    config = yaml.load(f)
 
-output_dir = "output"
-pool_root = os.path.join(output_dir, "pool")
-repositories = [
-    "coder/code-server",
-    "jgm/pandoc",
-]
-packages_file = open(os.path.join(output_dir, "Packages.new"), "w")
+output_dir = config["output_dir"]
+suite = config["suite"]
+component = config["component"]
+architectures = config["architectures"]
+repositories = config["repositories"]
 
+pool_root = os.path.join(output_dir, "pool", component)
+release_dir = os.path.join(output_dir, "dists", suite)
 
-os.makedirs(output_dir, exist_ok=True)
+os.makedirs(release_dir, exist_ok=True)
+
+# Source all packages
+packages_file = open(os.path.join(release_dir, "Packages"), "w")
 for repo in repositories:
     print(f"{repo}:", file=sys.stderr)
     try:
@@ -48,12 +54,45 @@ for repo in repositories:
             with open(local_name, "wb") as f:
                 for chunk in resp.iter_content(chunk_size=1024 * 1024):
                     f.write(chunk)
-        subprocess.run(["dpkg-scanpackages", "--multiversion", "."],
-            stdin=subprocess.DEVNULL, stdout=packages_file,
-            cwd=output_dir, check=True)
+        # In CI with limited disk space, process repositories one by one
         if "CI" in os.environ:
+            subprocess.run(["dpkg-scanpackages", "--multiversion", "."],
+                stdin=subprocess.DEVNULL, stdout=packages_file,
+                cwd=output_dir, check=True)
             shutil.rmtree(pool_root)
     except Exception as e:
         traceback.print_exc()
 
-os.rename(packages_file.name, os.path.join(output_dir, "Packages"))
+if "CI" not in os.environ:
+    subprocess.run(["dpkg-scanpackages", "--multiversion", "."],
+        stdin=subprocess.DEVNULL, stdout=packages_file,
+        cwd=output_dir, check=True)
+packages_file.close()
+
+# Split the "Packages" file by architecture
+try:
+    packages = {}
+    for arch in architectures:
+        arch_dir = os.path.join(release_dir, component, f"binary-{arch}")
+        os.makedirs(arch_dir, exist_ok=True)
+        packages[arch] = open(os.path.join(arch_dir, "Packages"), "w")
+
+    buf = []
+    arch = None
+    with open(packages_file.name, "r") as f:
+        for line in f:
+            if not line.strip():
+                print("".join(buf), file=packages[arch])
+                buf = []
+                arch = None
+                continue
+            buf.append(line)
+            if line.startswith("Architecture:"):
+                arch = line.split()[1].strip()
+finally:
+    for f in packages.values():
+        f.close()
+
+# Generate the "Release" file
+with open(os.path.join(release_dir, "Release"), "wb") as f:
+    subprocess.run(["apt-ftparchive", "-c", f"{suite}.conf", "release", output_dir], stdin=subprocess.DEVNULL, stdout=f, check=True)

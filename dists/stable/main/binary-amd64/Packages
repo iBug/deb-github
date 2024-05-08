@@ -13,6 +13,39 @@ Priority: optional
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code in the browser.
 
+Package: git-delta
+Version: 0.17.0
+Architecture: amd64
+Maintainer: Dan Davison <dandavison7@gmail.com>
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), zlib1g (>= 1:1.1.4)
+Conflicts: delta-musl
+Filename: ./pool/main/dandavison/delta/0.17.0/git-delta_0.17.0_amd64.deb
+Size: 2481664
+MD5sum: 53416c043bba7f1154beeec9d5e44138
+SHA1: 1972be3be7072a08e67fcc6d0d53b0ae4cdecd24
+SHA256: e11c201107edc86212a8bfdf5ca51a7b5bd497008f1f57c4319a2746991ff7db
+Section: utils
+Priority: optional
+Description: Syntax highlighter for git
+ Delta provides language syntax-highlighting, within-line insertion/deletion
+ detection, and restructured diff output for git on the command line.
+
+Package: git-delta-musl
+Version: 0.17.0
+Architecture: amd64
+Maintainer: Dan Davison <dandavison7@gmail.com>
+Conflicts: delta
+Filename: ./pool/main/dandavison/delta/0.17.0/git-delta-musl_0.17.0_amd64.deb
+Size: 2553216
+MD5sum: 4e46fb5f28339ad1f53f5142dc5c2f75
+SHA1: ee2e2a1efb6c281c7c417bfc893a7953592c4428
+SHA256: 6b26a3aabad11fae77a7e7040ee4aae23079a113c2b33c4504bfdda5671407f7
+Section: utils
+Priority: optional
+Description: Syntax highlighter for git
+ Delta provides language syntax-highlighting, within-line insertion/deletion
+ detection, and restructured diff output for git on the command line.
+
 Package: pandoc
 Version: 3.1.13-1
 Architecture: amd64

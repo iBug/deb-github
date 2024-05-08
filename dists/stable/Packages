@@ -3,7 +3,7 @@ Version: 4.23.1
 Architecture: armhf
 Maintainer: Joe Previte <joe@coder.com>
 Installed-Size: 363617
-Filename: ./pool/coder/code-server/v4.23.1/code-server_4.23.1_armhf.deb
+Filename: ./pool/main/coder/code-server/v4.23.1/code-server_4.23.1_armhf.deb
 Size: 108840032
 MD5sum: 95680b5310f9aada80d7c9161211665e
 SHA1: 353b3fae86b89e1f03f49a9d4df65ddda4d58438
@@ -19,7 +19,7 @@ Version: 4.23.1
 Architecture: amd64
 Maintainer: Joe Previte <joe@coder.com>
 Installed-Size: 336889
-Filename: ./pool/coder/code-server/v4.23.1/code-server_4.23.1_amd64.deb
+Filename: ./pool/main/coder/code-server/v4.23.1/code-server_4.23.1_amd64.deb
 Size: 98413904
 MD5sum: dcdf07f525870a6d1e5b9db8cc22967b
 SHA1: 186ded5ca20887ab60671bde175f7c25aa4aeeb1
@@ -34,7 +34,7 @@ Version: 4.23.1
 Architecture: arm64
 Maintainer: Joe Previte <joe@coder.com>
 Installed-Size: 376548
-Filename: ./pool/coder/code-server/v4.23.1/code-server_4.23.1_arm64.deb
+Filename: ./pool/main/coder/code-server/v4.23.1/code-server_4.23.1_arm64.deb
 Size: 112679680
 MD5sum: 23a88a9489e2e8bb3d11023f47b0d948
 SHA1: e6c7d0e0f5b20c7287e79250150b2b9efcf87237
@@ -54,7 +54,7 @@ Depends: libc6 (>= 2.13), libgmp10, zlib1g (>= 1:1.1.4)
 Suggests: texlive-latex-recommended, texlive-xetex,
  texlive-fonts-recommended
 Replaces: pandoc-data
-Filename: ./pool/jgm/pandoc/3.1.13/pandoc-3.1.13-1-arm64.deb
+Filename: ./pool/main/jgm/pandoc/3.1.13/pandoc-3.1.13-1-arm64.deb
 Size: 34385220
 MD5sum: 973fc0db36a436b85522a425c983fc49
 SHA1: bb1e789d9b6228674cf97714bcb18d7efaa474ca
@@ -89,7 +89,7 @@ Depends: libc6 (>= 2.13), libgmp10, zlib1g (>= 1:1.1.4)
 Suggests: texlive-latex-recommended, texlive-xetex,
  texlive-fonts-recommended
 Replaces: pandoc-data
-Filename: ./pool/jgm/pandoc/3.1.13/pandoc-3.1.13-1-amd64.deb
+Filename: ./pool/main/jgm/pandoc/3.1.13/pandoc-3.1.13-1-amd64.deb
 Size: 31592506
 MD5sum: 594bf5d14291fe14fa759fa0944f96a5
 SHA1: e36585838e4eee622a0e868525f0f02069030852

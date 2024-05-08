@@ -1,0 +1,1 @@
+/pool/:user/:repo/:tag/:filename https://github.com/:user/:repo/releases/download/:tag/:file 302

@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import bz2
+import gzip
 import io
 import os
 import requests
@@ -15,7 +17,7 @@ if "GITHUB_TOEKN" in os.environ:
     headers["Authorization"] = "token " + os.environ["GITHUB_TOKEN"]
 
 with open("config.yml", "r") as f:
-    config = yaml.load(f)
+    config = yaml.load(f, Loader=yaml.SafeLoader)
 
 output_dir = config["output_dir"]
 suite = config["suite"]
@@ -92,6 +94,12 @@ try:
 finally:
     for f in packages.values():
         f.close()
+        with open(f.name, "rb") as fin, bz2.open(f.name + ".bz2", "wb") as fout:
+            shutil.copyfileobj(fin, fout)
+        with open(f.name, "rb") as fin, gzip.open(f.name + ".gz", "wb") as fout:
+            shutil.copyfileobj(fin, fout)
+        os.remove(f.name)
+
 
 # Generate the "Release" file
 with open(os.path.join(release_dir, "Release"), "wb") as f:

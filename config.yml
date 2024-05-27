@@ -11,3 +11,4 @@ repositories:
   - coder/code-server
   - dandavison/delta
   - jgm/pandoc
+  - rclone/rclone

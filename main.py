@@ -84,7 +84,8 @@ try:
     with open(packages_file.name, "r") as f:
         for line in f:
             if not line.strip():
-                print("".join(buf), file=packages[arch])
+                if arch in architectures:
+                    print("".join(buf), file=packages[arch])
                 buf = []
                 arch = None
                 continue

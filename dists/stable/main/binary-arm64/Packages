@@ -65,3 +65,22 @@ Description: general markup converter
   DZSlides), data formats (CSV and TSV tables), and PDF (via
   external programs such as pdflatex or wkhtmltopdf).
 
+Package: rclone
+Version: 1.66.0
+Architecture: arm64
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 64312
+Provides: rclone
+Filename: ./pool/main/rclone/rclone/v1.66.0/rclone-v1.66.0-linux-arm64.deb
+Size: 20105846
+MD5sum: dd7c57e06cd896291364716dc3fe75c8
+SHA1: 138b4c4efd1c58ebc8919526d97787ebb1f6df42
+SHA256: 2574d320cc107047490a5e3432c84c4de4b0d9da70f6d4aaa48a80a40b99bc99
+Section: default
+Priority: extra
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+ is a command-line program to sync files and directories to and
+ from most cloud providers. It can also mount, tree, ncdu and lots
+ of other useful things.
+

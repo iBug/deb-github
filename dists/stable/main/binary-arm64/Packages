@@ -65,6 +65,21 @@ Description: general markup converter
   DZSlides), data formats (CSV and TSV tables), and PDF (via
   external programs such as pdflatex or wkhtmltopdf).
 
+Package: q
+Version: 0.19.2
+Architecture: arm64
+Maintainer: Nate Sales <nate@natesales.net>
+Installed-Size: 8192
+Filename: ./pool/main/natesales/q/v0.19.2/q_0.19.2_linux_arm64.deb
+Size: 3248444
+MD5sum: 432887a86f45c4fe4ee92ecc04ad54fe
+SHA1: 67c136eb6303d1f02d02cb9d39d1557e5360db8b
+SHA256: 941d19a3c5628e2bc9e53faa5f0006e204856dea0c8c43a7d02427e262495a60
+Section: utils
+Priority: extra
+Homepage: https://natesales.net/
+Description: A tiny CLI DNS client library with support for UDP, TCP, DoT, DoH, and DoQ.
+
 Package: rclone
 Version: 1.66.0
 Architecture: arm64

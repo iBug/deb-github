@@ -1,13 +1,13 @@
 Package: code-server
-Version: 4.90.1
+Version: 4.90.2
 Architecture: armhf
 Maintainer: Joe Previte <joe@coder.com>
-Installed-Size: 339011
-Filename: ./pool/main/coder/code-server/v4.90.1/code-server_4.90.1_armhf.deb
-Size: 94390594
-MD5sum: 86d16da84804fd1c1c0106ca168e7ae2
-SHA1: cf09e8d002f71b6e050fc459840cc8a61e4b4155
-SHA256: 3a24f958c727a2b0f2ad993144b0438355a308e5b3f37b6b6f47359ae0be471a
+Installed-Size: 339016
+Filename: ./pool/main/coder/code-server/v4.90.2/code-server_4.90.2_armhf.deb
+Size: 94392184
+MD5sum: 2a1f6987f3b50022eb7930a82c165d74
+SHA1: 7c7dc05c1fb6611a7678687a454f85e4501bb499
+SHA256: 803a7653b1290e1b1c999111cb4b8635fbcbd0a1553d0796af6a14787797f54c
 Section: devel
 Priority: optional
 Homepage: https://github.com/coder/code-server
@@ -31,16 +31,16 @@ Description: Syntax highlighter for git
  detection, and restructured diff output for git on the command line.
 
 Package: rclone
-Version: 1.66.0
+Version: 1.67.0
 Architecture: armhf
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 62712
+Installed-Size: 63676
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.66.0/rclone-v1.66.0-linux-arm-v7.deb
-Size: 20445044
-MD5sum: 5282d133dbb189bbb95e4114f773be6e
-SHA1: d0b8f84510dde180898d12518495cecc843ae02f
-SHA256: 1596547091d637278d0801f6ac2a625fa18bce9e74a5b3233b3ffb62357f3af0
+Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-arm-v7.deb
+Size: 20709986
+MD5sum: 7903726ffb57bf0c58ea681cca363bfd
+SHA1: 889b72045017dde2dab616c40ce1f0a3c82f3d12
+SHA256: 29b98f2475d297bbf04c80cf85182968b061aba8f326074c5d20af735eb9475d
 Section: default
 Priority: extra
 Homepage: https://rclone.org
@@ -50,16 +50,16 @@ Description: Rclone - "rsync for cloud storage"
  of other useful things.
 
 Package: rclone
-Version: 1.66.0
+Version: 1.67.0
 Architecture: armhf
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 62712
+Installed-Size: 63676
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.66.0/rclone-v1.66.0-linux-arm-v6.deb
-Size: 20461814
-MD5sum: 74d634b91aab982a7f88b2b8f527cbda
-SHA1: 771c22dfed27c5755abf6d5df6b4e033037972fb
-SHA256: 76a3e6ff182dcab32b35fe89a3ed0c42b48aaee9dbbb78f13765c3f5d207b8b6
+Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-arm-v6.deb
+Size: 20728020
+MD5sum: 5a977e8beacfba4a3aaf52f77256f8af
+SHA1: 6a59c7bf4107a17d79c9084f1ab6611d291e0e2e
+SHA256: c3cd6c2268c4e6f6bc42ea821588d420aed9caedead9d094070ad8f565ecffd6
 Section: default
 Priority: extra
 Homepage: https://rclone.org

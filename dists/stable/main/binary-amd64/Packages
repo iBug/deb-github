@@ -1,13 +1,13 @@
 Package: code-server
-Version: 4.90.1
+Version: 4.90.2
 Architecture: amd64
 Maintainer: Joe Previte <joe@coder.com>
-Installed-Size: 349144
-Filename: ./pool/main/coder/code-server/v4.90.1/code-server_4.90.1_amd64.deb
-Size: 102188356
-MD5sum: da9bae3f149a32c776cd461ffb55ab1a
-SHA1: 44886c421b11490ce5cb60e3bd725dd379bfbe79
-SHA256: dbddc46eb580e07d33761bc67fd0ff32279780a26512ce60011b61652852ce3c
+Installed-Size: 349148
+Filename: ./pool/main/coder/code-server/v4.90.2/code-server_4.90.2_amd64.deb
+Size: 102165744
+MD5sum: fb02abac875836706251e8bec8620c9e
+SHA1: 89af1f495ebf13ac74fe142cc038096c54fb6407
+SHA256: 0658cf260990838e8eaef44f71867d602b00476d5981ad72c1338045672c37ec
 Section: devel
 Priority: optional
 Homepage: https://github.com/coder/code-server
@@ -97,16 +97,16 @@ Homepage: https://natesales.net/
 Description: A tiny CLI DNS client library with support for UDP, TCP, DoT, DoH, and DoQ.
 
 Package: rclone
-Version: 1.66.0
+Version: 1.67.0
 Architecture: amd64
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 66512
+Installed-Size: 67500
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.66.0/rclone-v1.66.0-linux-amd64.deb
-Size: 21572074
-MD5sum: 30c1bc47f3140c184784657678e7cd5b
-SHA1: 0fa51f9d646c75775bc687acfc5248b5b95200f3
-SHA256: c86db29845f8c6a4720c47a28c1a53e75ecab95cb14a5ecb6678489d2d8e2a84
+Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-amd64.deb
+Size: 21830158
+MD5sum: a3031aa709cbc45ef5602b81d1e79fb6
+SHA1: b761b4ba59a9d6a6bf96fad1d58f64795bf3f8da
+SHA256: abcb9405f525c9cdbcfe8dfd97aca28e5ef32d3cc6d19dc1c225f0a87284068f
 Section: default
 Priority: extra
 Homepage: https://rclone.org

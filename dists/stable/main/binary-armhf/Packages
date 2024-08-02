@@ -4,10 +4,10 @@ Architecture: armhf
 Maintainer: Joe Previte <joe@coder.com>
 Installed-Size: 329771
 Filename: ./pool/main/coder/code-server/v4.91.1/code-server_4.91.1_armhf.deb
-Size: 20971520
-MD5sum: 233d438def28cdc34bd02bf0cd5c6b5c
-SHA1: 87847b37ab688fb0417ed131a8b46b7a66eba209
-SHA256: 644f14cad0f05a2bbfcc6fd467b0859928c9cfc176639d34d6399401ea2f2dfe
+Size: 92852838
+MD5sum: 1293b467322aa83332b212e5c48da0a0
+SHA1: 0ff47c3a0c4323a818df3e1cab5d97f95697dd8b
+SHA256: 36cf7068c5dcbbf6afe37167ca998444b7d68c961c1216d3defbeb13b3cbdd15
 Section: devel
 Priority: optional
 Homepage: https://github.com/coder/code-server
@@ -36,11 +36,11 @@ Architecture: armhf
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
 Installed-Size: 63676
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-arm-v7.deb
-Size: 20709986
-MD5sum: 7903726ffb57bf0c58ea681cca363bfd
-SHA1: 889b72045017dde2dab616c40ce1f0a3c82f3d12
-SHA256: 29b98f2475d297bbf04c80cf85182968b061aba8f326074c5d20af735eb9475d
+Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-arm-v6.deb
+Size: 20728020
+MD5sum: 5a977e8beacfba4a3aaf52f77256f8af
+SHA1: 6a59c7bf4107a17d79c9084f1ab6611d291e0e2e
+SHA256: c3cd6c2268c4e6f6bc42ea821588d420aed9caedead9d094070ad8f565ecffd6
 Section: default
 Priority: extra
 Homepage: https://rclone.org
@@ -55,11 +55,11 @@ Architecture: armhf
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
 Installed-Size: 63676
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-arm-v6.deb
-Size: 20728020
-MD5sum: 5a977e8beacfba4a3aaf52f77256f8af
-SHA1: 6a59c7bf4107a17d79c9084f1ab6611d291e0e2e
-SHA256: c3cd6c2268c4e6f6bc42ea821588d420aed9caedead9d094070ad8f565ecffd6
+Filename: ./pool/main/rclone/rclone/v1.67.0/rclone-v1.67.0-linux-arm-v7.deb
+Size: 20709986
+MD5sum: 7903726ffb57bf0c58ea681cca363bfd
+SHA1: 889b72045017dde2dab616c40ce1f0a3c82f3d12
+SHA256: 29b98f2475d297bbf04c80cf85182968b061aba8f326074c5d20af735eb9475d
 Section: default
 Priority: extra
 Homepage: https://rclone.org

@@ -15,15 +15,15 @@ Description: Run VS Code in the browser.
 Vendor: Coder
 
 Package: git-delta
-Version: 0.17.0
+Version: 0.18.0
 Architecture: armhf
 Maintainer: Dan Davison <dandavison7@gmail.com>
 Conflicts: delta-musl
-Filename: ./pool/main/dandavison/delta/0.17.0/git-delta_0.17.0_armhf.deb
-Size: 2252208
-MD5sum: 6689f1e990b97d328ea48d1c5e15eb3a
-SHA1: db47552ece6ed769d8fdeead2f5c9f3f5f0d084a
-SHA256: 634d6216cc6262fef67d2096726c0378444cac4fee49bd6d294f0791fd8d80a6
+Filename: ./pool/main/dandavison/delta/0.18.0/git-delta_0.18.0_armhf.deb
+Size: 2247212
+MD5sum: 054fb731788e343df422096af9dfcb55
+SHA1: 41fea1712349493ad6e66143fde67e1c1af4fbee
+SHA256: 5dbe1ef0ef72e821849565bb5bf6cc7dc231a904d6d6e37b7c8350097cbd924f
 Section: utils
 Priority: optional
 Description: Syntax highlighter for git

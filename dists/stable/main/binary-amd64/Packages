@@ -14,16 +14,16 @@ Homepage: https://github.com/coder/code-server
 Description: Run VS Code in the browser.
 
 Package: git-delta
-Version: 0.18.0
+Version: 0.18.1
 Architecture: amd64
 Maintainer: Dan Davison <dandavison7@gmail.com>
 Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.2), zlib1g (>= 1:1.1.4)
 Conflicts: delta-musl
-Filename: ./pool/main/dandavison/delta/0.18.0/git-delta_0.18.0_amd64.deb
-Size: 2469824
-MD5sum: 841022f76111335df68c0b2024e2f6da
-SHA1: adb0c823d25e532862fb4cd833e316dff05e90f9
-SHA256: 33db7f70ae6a460a4b84ce8240887836eef3290c3633e7d4685486a2eda7370b
+Filename: ./pool/main/dandavison/delta/0.18.1/git-delta_0.18.1_amd64.deb
+Size: 2469600
+MD5sum: 7a4ad4efd0750d1abd06bf005d885699
+SHA1: 6f760c14df1a5af1212a861ca8b2f3f172d6ed38
+SHA256: 75481e2d4b2a99ff24d72cf3860aea816a2f33117247df0c1ca70eb58fbf360e
 Section: utils
 Priority: optional
 Description: Syntax highlighter for git
@@ -31,15 +31,15 @@ Description: Syntax highlighter for git
  detection, and restructured diff output for git on the command line.
 
 Package: git-delta-musl
-Version: 0.18.0
+Version: 0.18.1
 Architecture: amd64
 Maintainer: Dan Davison <dandavison7@gmail.com>
 Conflicts: delta
-Filename: ./pool/main/dandavison/delta/0.18.0/git-delta-musl_0.18.0_amd64.deb
-Size: 2548768
-MD5sum: 7a1da283dde2ea6f4d740bb43ca3334a
-SHA1: 68b8d1b229f0101eae936ed688f10c4db868910b
-SHA256: 9862c3e2258a116aad7ce03d690120b1aa49ac554e190cce96be5b58e8e90dee
+Filename: ./pool/main/dandavison/delta/0.18.1/git-delta-musl_0.18.1_amd64.deb
+Size: 2548236
+MD5sum: 1ae776558bd26094dc2e94c16e031ebd
+SHA1: 248461e70c89e76b8c17aa6f1373528829edd529
+SHA256: 3702b0ab64306c7bf1ea6bc1d63e13bc1def5db57c1bfd416f0d453ac06408d5
 Section: utils
 Priority: optional
 Description: Syntax highlighter for git

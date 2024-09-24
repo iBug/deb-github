@@ -16,16 +16,16 @@ Description: Syntax highlighter for git
  detection, and restructured diff output for git on the command line.
 
 Package: rclone
-Version: 1.68.0
+Version: 1.68.1
 Architecture: i386
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 62798
+Installed-Size: 62832
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.68.0/rclone-v1.68.0-linux-386.deb
-Size: 21495038
-MD5sum: 1ab899ce790be8f2ce82af70ce799c52
-SHA1: 4c605acdd56ddeef365044d21b56a977808a3708
-SHA256: 556675a2890f3a448d68295cf9530a885a93d148ca0593874fbe6c7e3bb88996
+Filename: ./pool/main/rclone/rclone/v1.68.1/rclone-v1.68.1-linux-386.deb
+Size: 21507116
+MD5sum: 80f429729b8d1098494847cad6f419f8
+SHA1: ee17fc75e495cad8d309e2ee5a5e1d4ada49c524
+SHA256: 1573afb05e4f758eb4ca3778e87cf54f7954367433e233f0cb0c68940e1427bf
 Section: default
 Priority: extra
 Homepage: https://rclone.org
@@ -33,4 +33,5 @@ Description: Rclone - "rsync for cloud storage"
  is a command-line program to sync files and directories to and
  from most cloud providers. It can also mount, tree, ncdu and lots
  of other useful things.
+License: MIT
 

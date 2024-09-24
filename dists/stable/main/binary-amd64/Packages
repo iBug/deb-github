@@ -1,13 +1,13 @@
 Package: code-server
-Version: 4.92.2
+Version: 4.93.1
 Architecture: amd64
 Maintainer: Joe Previte <joe@coder.com>
-Installed-Size: 343224
-Filename: ./pool/main/coder/code-server/v4.92.2/code-server_4.92.2_amd64.deb
-Size: 101480830
-MD5sum: c56abee972571c376074a4838f3d1185
-SHA1: fbc014db2bc09ba802f315684dbb7550f18e5dd8
-SHA256: 3d4075a4d20e5d4bae26e469a92df92e3eb30e57bf2a572b49c6bf45a9cf32f1
+Installed-Size: 401759
+Filename: ./pool/main/coder/code-server/v4.93.1/code-server_4.93.1_amd64.deb
+Size: 113636458
+MD5sum: 990f4200d7da8ccdebcc6884f514d173
+SHA1: 569acf7e2d218c98d1f9d482c9b0e00a63cce525
+SHA256: 9307ad9dacf30a3de76a26d0d455150d17798cf0394ccf5a4f3705ff20c945d8
 Section: devel
 Priority: optional
 Homepage: https://github.com/coder/code-server
@@ -97,16 +97,16 @@ Homepage: https://natesales.net/
 Description: A tiny CLI DNS client library with support for UDP, TCP, DoT, DoH, and DoQ.
 
 Package: rclone
-Version: 1.68.0
+Version: 1.68.1
 Architecture: amd64
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 67094
+Installed-Size: 67128
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.68.0/rclone-v1.68.0-linux-amd64.deb
-Size: 22969570
-MD5sum: 21580b9501756eac3886e71b3cefcdda
-SHA1: 6f5054f389f477b90136739da663771c2b0beb67
-SHA256: b40978dd4271cf4c23349b39d4b117de97ac52e47052b22639a518e2fa088a43
+Filename: ./pool/main/rclone/rclone/v1.68.1/rclone-v1.68.1-linux-amd64.deb
+Size: 22981998
+MD5sum: 4b3405bc54db50972822c8bf6b89252c
+SHA1: 698051980d8620dd08934837b7d0a9bd9bf7e7c0
+SHA256: 87b8c52145a785742fa2dd151e028b5ec8e7ecfc8813474c29793b242b7cb42a
 Section: default
 Priority: extra
 Homepage: https://rclone.org
@@ -114,4 +114,5 @@ Description: Rclone - "rsync for cloud storage"
  is a command-line program to sync files and directories to and
  from most cloud providers. It can also mount, tree, ncdu and lots
  of other useful things.
+License: MIT
 

@@ -80,23 +80,3 @@ Priority: extra
 Homepage: https://natesales.net/
 Description: A tiny CLI DNS client library with support for UDP, TCP, DoT, DoH, and DoQ.
 
-Package: rclone
-Version: 1.68.1
-Architecture: arm64
-Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 64304
-Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.68.1/rclone-v1.68.1-linux-arm64.deb
-Size: 21394488
-MD5sum: 5c319d0f53ec73e38a992601c03f1c20
-SHA1: 1146b696ca9e5fe8c92255b67bdc50cf311c014c
-SHA256: 3193800174f91108de1bcbf5a869416893c9cb228779e278e36c915304747834
-Section: default
-Priority: extra
-Homepage: https://rclone.org
-Description: Rclone - "rsync for cloud storage"
- is a command-line program to sync files and directories to and
- from most cloud providers. It can also mount, tree, ncdu and lots
- of other useful things.
-License: MIT
-

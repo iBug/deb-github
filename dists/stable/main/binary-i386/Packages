@@ -1,14 +1,14 @@
 Package: git-delta
-Version: 0.19.1
+Version: 0.19.2
 Architecture: i386
 Maintainer: Dan Davison <dandavison7@gmail.com>
-Depends: lib32gcc-s1 (>= 4.2), libc6-i386 (>= 2.34)
+Depends: lib32gcc-s1 (>= 4.2), libc6-i386 (>= 2.18)
 Conflicts: delta-musl
-Filename: ./pool/main/dandavison/delta/0.19.1/git-delta_0.19.1_i386.deb
-Size: 2804724
-MD5sum: 372819207c32f52eb333067cb525e940
-SHA1: 15218f8a2fca29984ae61e5c6fa79ece574771cb
-SHA256: 5b92ed69b6870e60fc80c984938f510a77a4ceb59fd428d83b00451fb5515e17
+Filename: ./pool/main/dandavison/delta/0.19.2/git-delta_0.19.2_i386.deb
+Size: 2806352
+MD5sum: f03eed841baa76a3ca4a8fbf1deae700
+SHA1: cd156173f140088fc22d0a11ee50f22e78047ba1
+SHA256: 70873dc0afcb081ff541956b4cb890a1805f3729bb6b5515c473ea8817d983b9
 Section: utils
 Priority: optional
 Description: Syntax highlighter for git

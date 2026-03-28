@@ -15,15 +15,15 @@ Description: Run VS Code in the browser.
 Vendor: Coder
 
 Package: git-delta
-Version: 0.19.1
+Version: 0.19.2
 Architecture: arm64
 Maintainer: Dan Davison <dandavison7@gmail.com>
 Conflicts: delta-musl
-Filename: ./pool/main/dandavison/delta/0.19.1/git-delta_0.19.1_arm64.deb
-Size: 2396900
-MD5sum: 09ceb055c1bc476020d7de7f6d6eec95
-SHA1: 3ef170d87c2d50f99f3c5699fbf5b10deff50268
-SHA256: 1bd252110eafa1065c0798f9e68de0682127408e4b53db79733efa72c53b68bf
+Filename: ./pool/main/dandavison/delta/0.19.2/git-delta_0.19.2_arm64.deb
+Size: 2395752
+MD5sum: a26ed88a8135f6efa6998e19b1b91eb8
+SHA1: a5688930e2443726dc9bfabbd2163bb44148e4f2
+SHA256: 0edc36cf514f1bd84becac3e94ee8ae9f8818c6a1f99f7b2ee67b362afa253d3
 Section: utils
 Priority: optional
 Description: Syntax highlighter for git

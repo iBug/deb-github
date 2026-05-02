@@ -1,0 +1,36 @@
+Package: git-delta
+Version: 0.19.2
+Architecture: i386
+Maintainer: Dan Davison <dandavison7@gmail.com>
+Depends: lib32gcc-s1 (>= 4.2), libc6-i386 (>= 2.18)
+Conflicts: delta-musl
+Filename: ./pool/main/dandavison/delta/0.19.2/git-delta_0.19.2_i386.deb
+Size: 2806352
+MD5sum: f03eed841baa76a3ca4a8fbf1deae700
+SHA1: cd156173f140088fc22d0a11ee50f22e78047ba1
+SHA256: 70873dc0afcb081ff541956b4cb890a1805f3729bb6b5515c473ea8817d983b9
+Section: utils
+Priority: optional
+Description: Syntax highlighter for git
+ Delta provides language syntax-highlighting, within-line insertion/deletion
+ detection, and restructured diff output for git on the command line.
+
+Package: rclone
+Version: 1.74.0
+Architecture: i386
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 81238
+Provides: rclone
+Filename: ./pool/main/rclone/rclone/v1.74.0/rclone-v1.74.0-linux-386.deb
+Size: 28353802
+MD5sum: f6b548a28d018fcca90b15e0efe69692
+SHA1: 9d2d1e9a891626da1f33e5e35442384bc9e587aa
+SHA256: 8e05a83c3acf0085a6e2f2cd91163facb612427648adc7a9df0a6ea2a2edc676
+Section: default
+Priority: extra
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+ is a command-line program to sync files and directories to and
+ from most cloud providers. It can also mount, tree, ncdu and lots
+ of other useful things.
+

@@ -15,22 +15,3 @@ Description: Syntax highlighter for git
  Delta provides language syntax-highlighting, within-line insertion/deletion
  detection, and restructured diff output for git on the command line.
 
-Package: rclone
-Version: 1.74.3
-Architecture: i386
-Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 81327
-Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.74.3/rclone-v1.74.3-linux-386.deb
-Size: 28394390
-MD5sum: 267424ec190794bbbda8acccfd807309
-SHA1: dc2609b5e1ad861e1dccbb684c7037913bdda95f
-SHA256: 2e490accafcee53a7be51339325d8b4d1ce6e2508298d354d54f4e79d63d487d
-Section: default
-Priority: extra
-Homepage: https://rclone.org
-Description: Rclone - "rsync for cloud storage"
- is a command-line program to sync files and directories to and
- from most cloud providers. It can also mount, tree, ncdu and lots
- of other useful things.
-

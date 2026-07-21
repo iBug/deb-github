@@ -14,3 +14,41 @@ Description: Syntax highlighter for git
  Delta provides language syntax-highlighting, within-line insertion/deletion
  detection, and restructured diff output for git on the command line.
 
+Package: rclone
+Version: 1.74.4
+Architecture: armhf
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 80524
+Provides: rclone
+Filename: ./pool/main/rclone/rclone/v1.74.4/rclone-v1.74.4-linux-arm-v6.deb
+Size: 28420150
+MD5sum: 33f75575261025cbb844482e06fe1426
+SHA1: 5c2912aef2edfa027188d22d04991d65abffd365
+SHA256: 466417661c17d7507de88e28e21100c480f85f27003dc2d7114e76ec0233a770
+Section: default
+Priority: extra
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+ is a command-line program to sync files and directories to and
+ from most cloud providers. It can also mount, tree, ncdu and lots
+ of other useful things.
+
+Package: rclone
+Version: 1.74.4
+Architecture: armhf
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 80460
+Provides: rclone
+Filename: ./pool/main/rclone/rclone/v1.74.4/rclone-v1.74.4-linux-arm-v7.deb
+Size: 28404890
+MD5sum: 16dd7eabe0f80cc34437943a7ad42b80
+SHA1: de584327c8e61f54259fc9723d47191b4c7a1a56
+SHA256: 7f4c19e8f31041c5a913940191aac3659fc5654d4774f62801ac7fe8039cb147
+Section: default
+Priority: extra
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+ is a command-line program to sync files and directories to and
+ from most cloud providers. It can also mount, tree, ncdu and lots
+ of other useful things.
+

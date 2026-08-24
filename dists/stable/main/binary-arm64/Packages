@@ -1,13 +1,13 @@
 Package: code-server
-Version: 4.133.0
+Version: 4.134.0
 Architecture: arm64
 Maintainer: Joe Previte <joe@coder.com>
-Installed-Size: 700367
-Filename: ./pool/main/coder/code-server/v4.133.0/code-server_4.133.0_arm64.deb
-Size: 235885798
-MD5sum: d75d6d7d34ab460cfb97930eceb3dda3
-SHA1: 999776117d2542363460eb0c29715270b3f392f7
-SHA256: 332bfdde6bdfd6c8c721b1722b2a69e1737d65e3131b161a63d54b0855967254
+Installed-Size: 698755
+Filename: ./pool/main/coder/code-server/v4.134.0/code-server_4.134.0_arm64.deb
+Size: 235492736
+MD5sum: 849650185739405579e8eaf826061499
+SHA1: fa29345f0f72736be04188fd0eb2b7e94761a5da
+SHA256: 347c9df72892f7e7120b5886be31e4dcc143059293f5b84df561b5c8af2c5398
 Section: devel
 Priority: optional
 Homepage: https://github.com/coder/code-server

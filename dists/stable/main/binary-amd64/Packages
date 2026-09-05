@@ -100,16 +100,16 @@ Architecture-Variant: amd64v1
 License: GNU GPL-3.0
 
 Package: rclone
-Version: 1.75.0
+Version: 1.75.1
 Architecture: amd64
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 93031
+Installed-Size: 93175
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.75.0/rclone-v1.75.0-linux-amd64.deb
-Size: 32099950
-MD5sum: 7be5b75df0c24083b90e6e05f0bab975
-SHA1: f65e53167c323a338ce85e68279014a9de6a05ca
-SHA256: 266598b5c66a42b821571332013cc85a88ffcff8939cf0643861c8d033dd3a4a
+Filename: ./pool/main/rclone/rclone/v1.75.1/rclone-v1.75.1-linux-amd64.deb
+Size: 32154762
+MD5sum: 8e36b347466dc596fe13fdc42275c7e9
+SHA1: 8d22462b89d92825aae658125c9efca847faa705
+SHA256: 09c9f7606ed9e31eecc1eec26a89992cf2931a8d2d1a5f0ae2bb1c11630ffb15
 Section: default
 Priority: extra
 Homepage: https://rclone.org

@@ -82,16 +82,16 @@ Description: A tiny CLI DNS client library with support for UDP, TCP, DoT, DoH, 
 License: GNU GPL-3.0
 
 Package: rclone
-Version: 1.75.0
+Version: 1.75.1
 Architecture: arm64
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 86187
+Installed-Size: 86295
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.75.0/rclone-v1.75.0-linux-arm64.deb
-Size: 29413138
-MD5sum: 30b5f5a74ff7229d3beab6cead948a85
-SHA1: 13c433c472dd2928a4949915996ae0641907ab1b
-SHA256: 081c605cbf47ade3114e78db2130766a23281a12b79cdd5774b11dad6c6c0931
+Filename: ./pool/main/rclone/rclone/v1.75.1/rclone-v1.75.1-linux-arm64.deb
+Size: 29493040
+MD5sum: 7f70be633d0d16fb58670f44b40d737a
+SHA1: 4f393bc753fa75cc8afb37388f1488c818e21e35
+SHA256: 773f3a76615f91f7d4654183a537afddce3343c8d99ac1d74984f060f2ade2d9
 Section: default
 Priority: extra
 Homepage: https://rclone.org

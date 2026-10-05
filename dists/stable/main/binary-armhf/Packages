@@ -1,13 +1,13 @@
 Package: git-delta
-Version: 0.19.2
+Version: 0.20.1
 Architecture: armhf
 Maintainer: Dan Davison <dandavison7@gmail.com>
 Conflicts: delta-musl
-Filename: ./pool/main/dandavison/delta/0.19.2/git-delta_0.19.2_armhf.deb
-Size: 2376700
-MD5sum: a66e8eca40ea79f886b7bc597687d5c3
-SHA1: 1827eb0ab6de60ace8153e24eb26cdd5f047fcae
-SHA256: 14b1c7acfe32dda6758bb9a809309c38df7a32e6d6ba19738624fcba35d8eb1f
+Filename: ./pool/main/dandavison/delta/0.20.1/git-delta_0.20.1_armhf.deb
+Size: 2379732
+MD5sum: 9a0b5a03cfddd1c092d625aa5cbcce8c
+SHA1: 5da0cd1f519aac095b8b87235de00eb51db80033
+SHA256: f4af789a74ad728ba7ab081417c17a6af1b45c7e31db291703310de0b0dd0129
 Section: utils
 Priority: optional
 Description: Syntax highlighter for git

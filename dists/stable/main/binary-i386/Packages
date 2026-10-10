@@ -16,16 +16,16 @@ Description: Syntax highlighter for git
  detection, and restructured diff output for git on the command line.
 
 Package: rclone
-Version: 1.75.1
+Version: 1.75.2
 Architecture: i386
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 87883
+Installed-Size: 88225
 Provides: rclone
-Filename: ./pool/main/rclone/rclone/v1.75.1/rclone-v1.75.1-linux-386.deb
-Size: 30570430
-MD5sum: 39c8673568bb53b290b1aa7e51c6526b
-SHA1: c2424c15a7161116a8cf1af860ee03129b5f4c5c
-SHA256: 58b387dec303ea7bde8bd557ada8bb3050fdcee9c057c1e97fef835a81a8557e
+Filename: ./pool/main/rclone/rclone/v1.75.2/rclone-v1.75.2-linux-386.deb
+Size: 30688572
+MD5sum: 02fb72aaa220818420e8022617f040c7
+SHA1: 806c550acdb67fa950b7be4310abe16a9f2bc754
+SHA256: b6e8c00fd41fd1baeccdbe333652cf4211322ea12a3383a15a04d00ddb1670c9
 Section: default
 Priority: extra
 Homepage: https://rclone.org

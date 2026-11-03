@@ -14,3 +14,89 @@ Homepage: https://github.com/coder/code-server
 Description: Run VS Code in the browser.
 Vendor: Coder
 
+Package: git-delta
+Version: 0.20.1
+Architecture: arm64
+Maintainer: Dan Davison <dandavison7@gmail.com>
+Conflicts: delta-musl
+Filename: ./pool/main/dandavison/delta/0.20.1/git-delta_0.20.1_arm64.deb
+Size: 2390896
+MD5sum: 48f5a7c6ab1ac97a9cb48c227b4c3a08
+SHA1: 7fcac64a7492f49bc066ac5db354f8f644e678ea
+SHA256: 6e08b734d611037eb9eb5db883cab7ac0a089216a9efdc1d2caac44319029c28
+Section: utils
+Priority: optional
+Description: Syntax highlighter for git
+ Delta provides language syntax-highlighting, within-line insertion/deletion
+ detection, and restructured diff output for git on the command line.
+
+Package: pandoc
+Version: 3.13-1
+Architecture: arm64
+Maintainer: John MacFarlane <jgm@berkeley.edu>
+Installed-Size: 176148
+Depends: libc6 (>= 2.13), libgmp10, zlib1g (>= 1:1.1.4)
+Suggests: texlive-latex-recommended, texlive-xetex,
+ texlive-fonts-recommended
+Replaces: pandoc-data
+Filename: ./pool/main/jgm/pandoc/3.13/pandoc-3.13-1-arm64.deb
+Size: 38104340
+MD5sum: ecf8b2c2e1db1b695b47bd01908518c1
+SHA1: 5c1295f4b40be19b67e6924716b24278b9ab5edb
+SHA256: e55b480eb76997812b44c3f65f641c84214e623bc40b70a6b6d16ee00bfcca23
+Section: text
+Priority: optional
+Description: general markup converter
+  Pandoc is a Haskell library for converting from one markup format
+  to another, and a command-line tool that uses this library. The
+  formats it can handle include light markup formats (many variants
+  of Markdown, reStructuredText, AsciiDoc, Org-mode, Muse, Textile,
+  txt2tags), HTML formats (HTML 4 and 5), ebook formats (EPUB v2
+  and v3, FB2), Documentation formats (GNU TexInfo, Haddock),
+  Roff formats (man, ms), TeX formats (LaTeX, ConTeXt), XML
+  formats (DocBook 4 and 5, JATS, TEI Simple, OpenDocument),
+  outline formats (OPML), bibliography formats (BibTeX, BibLaTeX,
+  CSL JSON, CSL YAML, RIS), word processor formats (Docx, RTF,
+  ODT), interactive notebook formats (Jupyter notebook
+  ipynb), page layout formats (InDesign ICML), wiki markup
+  formats (MediaWiki, DokuWiki, TikiWiki, TWiki, Vimwiki,
+  XWiki, ZimWiki, Jira wiki, Creole), slide show formats
+  (LaTeX Beamer, PowerPoint, Slidy, reveal.js, Slideous, S5,
+  DZSlides), data formats (CSV and TSV tables), and PDF (via
+  external programs such as pdflatex or wkhtmltopdf).
+
+Package: q
+Version: 0.19.12
+Architecture: arm64
+Maintainer: Nate Sales <nate@natesales.net>
+Installed-Size: 9984
+Filename: ./pool/main/natesales/q/v0.19.12/q_0.19.12_linux_arm64.deb
+Size: 3942262
+MD5sum: 606eead51d5bac7716f21d6e499ca32c
+SHA1: 3c7175d321b3ea09f5459f947c9cdf34ec0e563c
+SHA256: 34ada9cbe9c6ba88248fe37918a15a46f2996b60e16d62777f5acad7c3613e84
+Section: utils
+Priority: extra
+Homepage: https://natesales.net/
+Description: A tiny CLI DNS client library with support for UDP, TCP, DoT, DoH, and DoQ.
+License: GNU GPL-3.0
+
+Package: rclone
+Version: 1.75.2
+Architecture: arm64
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 86713
+Provides: rclone
+Filename: ./pool/main/rclone/rclone/v1.75.2/rclone-v1.75.2-linux-arm64.deb
+Size: 29608266
+MD5sum: 029ba5f0da3605b4ff0a6766e792aa80
+SHA1: adc2e1a800af8ddbaa56c34b96fda317ecf57c90
+SHA256: b8ba161d5c837206fad79ff1aabf0a81aa02a5fb164cdbc0ff5db4160aecd278
+Section: default
+Priority: extra
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+ is a command-line program to sync files and directories to and
+ from most cloud providers. It can also mount, tree, ncdu and lots
+ of other useful things.
+

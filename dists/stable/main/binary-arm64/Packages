@@ -31,19 +31,19 @@ Description: Syntax highlighter for git
  detection, and restructured diff output for git on the command line.
 
 Package: pandoc
-Version: 3.13-1
+Version: 3.14-1
 Architecture: arm64
 Maintainer: John MacFarlane <jgm@berkeley.edu>
-Installed-Size: 176148
+Installed-Size: 177532
 Depends: libc6 (>= 2.13), libgmp10, zlib1g (>= 1:1.1.4)
 Suggests: texlive-latex-recommended, texlive-xetex,
  texlive-fonts-recommended
 Replaces: pandoc-data
-Filename: ./pool/main/jgm/pandoc/3.13/pandoc-3.13-1-arm64.deb
-Size: 38104340
-MD5sum: ecf8b2c2e1db1b695b47bd01908518c1
-SHA1: 5c1295f4b40be19b67e6924716b24278b9ab5edb
-SHA256: e55b480eb76997812b44c3f65f641c84214e623bc40b70a6b6d16ee00bfcca23
+Filename: ./pool/main/jgm/pandoc/3.14/pandoc-3.14-1-arm64.deb
+Size: 38646082
+MD5sum: 5907fd3470c944c6f9654b25edc023de
+SHA1: ef52b8a6a1da87a4b303e9ff862b173d362c5948
+SHA256: 3e8e676a641ff752284d474951fe7a7f4a08c04cb3915fe0b20049c1be27f6c4
 Section: text
 Priority: optional
 Description: general markup converter
